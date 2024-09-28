@@ -3,4 +3,4 @@ def area(a: float, b: float) -> float:
 
 
 def perimeter(a: float, b: float) -> float:
-    return a + b
+    return (a + b) * 2
