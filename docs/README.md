@@ -1,3 +1,3 @@
 # Документация проекта
-- [для пользователей](docs/Documentation for users.md)
-- [для разработчиков](docs/Documentation for developers.md)
+- [для пользователей](https://github.com/eleks-developer/geometric_lib/blob/documentation_465194/docs/Documentation%20for%20users.md)
+- [для разработчиков](https://github.com/eleks-developer/geometric_lib/blob/documentation_465194/docs/Documentation%20for%20developers.md)
