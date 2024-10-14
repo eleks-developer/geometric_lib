@@ -1,3 +1,3 @@
 # Документация проекта
-- [для пользователей](Documentation for users.md)
-- [для разработчиков](Documentation for developers.md)
+- [для пользователей](docs/Documentation for users.md)
+- [для разработчиков](docs/Documentation for developers.md)
