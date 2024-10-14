@@ -12,8 +12,8 @@ def area(r: float) -> float:
             Пример вызова:
                 Входные данные: 3.0
                 Результат: 28.27433
-
     '''
+
     c_area = math.pi * r * r
     return c_area
 
@@ -30,5 +30,6 @@ def perimeter(r: float) -> float:
                 Входные данные: 3.0
                 Результат: 18.84955
     '''
+    
     c_perimeter = 2 * math.pi * r
     return c_perimeter
