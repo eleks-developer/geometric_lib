@@ -6,7 +6,7 @@
 
 ## Основные файлы библиотеки, их функции с примерами вызовов
 
-### circle.py
+### [circle.py](https://github.com/eleks-developer/geometric_lib/blob/documentation_465194/circle.py)
 
 #### Площадь окружности
 Функция **принимает вещественное число** (*радиус окружности*) в качестве аргумента и **возвращает площадь окружности**, которая вычисляется по формуле:
@@ -52,7 +52,7 @@ perimeter(3.0)
 18.84955
 ```
 
-### rectangle.py
+### [rectangle.py](https://github.com/eleks-developer/geometric_lib/blob/documentation_465194/rectangle.py)
 
 #### Площадь прямоугольника
 Функция **принимает вещественные числа** (*стороны прямоугольника*) в качестве аргументов и **возвращает площадь прямоугольника**, которая вычисляется по формуле:
@@ -98,7 +98,7 @@ perimeter(3.0, 5.0)
 16.0
 ```
 
-### square.py
+### [square.py](https://github.com/eleks-developer/geometric_lib/blob/documentation_465194/square.py)
 
 #### Площадь квадрата
 Функция **принимает вещественное число** (*сторона квадрата*) в качестве аргумента и **возвращает площадь квадрата**, которая вычисляется по формуле:
@@ -144,7 +144,7 @@ perimeter(5.0)
 20.0
 ```
 
-### triangle.py
+### [triangle.py](https://github.com/eleks-developer/geometric_lib/blob/documentation_465194/triangle.py)
 
 #### Площадь треугольника
 Функция **принимает вещественные числа** (*сторона треугольника и высота, падающая на эту сторону*) в качестве аргументов и **возвращает площадь треугольника**, которая вычисляется по формуле:
@@ -211,12 +211,12 @@ perimeter(100.0, 3.0, 5.0)
 
 ## История изменений проекта
 
-* **31dead1** - *Added documentation for file functions **rectangle.py**, and also added a check for the existence of a triangle to the **'perimeter'** function*
-* **13fe350** - *Added documentation for file functions **rectangle.py***
-* **bb1b73e** - *Documented the functions in a file **square.py**. I made a cosmetic edit **circle.py***
-* **7992220** - *Added an example of calling each function of the file **circle.py***
-* **6981648** - *Added documentation for file functions **circle.py**, and also slightly changed the functions themselves*
-* **86b0e77** - *Fixed an error in the formula of the **'perimeter'** function in the file **rectangle.py** and added new **triangle.py** file*
-* **2954fc3** - *Create a new **rectangle.py** file and make a cosmetic correction of the **circle.py** and **square.py** files*
-* **d078c8d** - *L-03: Docs added*
-* **8ba9aeb** - *L-03: Circle and square added*
+* **[31dead1](https://github.com/KulEDmitr/geometric_lib/commit/31dead19344a3a586613d894bba4e30387d8849f)** - *Added documentation for file functions **rectangle.py**, and also added a check for the existence of a triangle to the **'perimeter'** function*
+* **[13fe350](https://github.com/KulEDmitr/geometric_lib/commit/13fe350241f8d6ee9e4b26d9aeaeea2cdced7efa)** - *Added documentation for file functions **rectangle.py***
+* **[bb1b73e](https://github.com/KulEDmitr/geometric_lib/commit/bb1b73eb1c58fb2ef9377c75d2dff60f7f301806)** - *Documented the functions in a file **square.py**. I made a cosmetic edit **circle.py***
+* **[7992220](https://github.com/KulEDmitr/geometric_lib/commit/79922204985223455116982e10e11f91b53134f8)** - *Added an example of calling each function of the file **circle.py***
+* **[6981648](https://github.com/KulEDmitr/geometric_lib/commit/6981648bff9a66121d68ef38355dee78dfa23a3a)** - *Added documentation for file functions **circle.py**, and also slightly changed the functions themselves*
+* **[86b0e77](https://github.com/KulEDmitr/geometric_lib/commit/86b0e775664b1354aa7f8334627d30a9e2b602de)** - *Fixed an error in the formula of the **'perimeter'** function in the file **rectangle.py** and added new **triangle.py** file*
+* **[2954fc3](https://github.com/KulEDmitr/geometric_lib/commit/2954fc31df7a2745812b8b21febcab73cce767c9)** - *Create a new **rectangle.py** file and make a cosmetic correction of the **circle.py** and **square.py** files*
+* **[d078c8d](https://github.com/)** - *L-03: Docs added*
+* **[8ba9aeb](https://github.com/)** - *L-03: Circle and square added*
