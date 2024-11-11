@@ -10,6 +10,11 @@ def area(a: float) -> float:
                 Входные данные: 5.0
                 Результат: 25.0
     '''
+    if not isinstance(a, (float, int)):
+        raise ValueError("An invalid type was passed. Expected: float / int")
+
+    if a <= 0:
+        raise ValueError("An invalid value was passed. Expected: a in the range (0, +infinity)")
 
     s_area = a * a
     return s_area
@@ -27,6 +32,11 @@ def perimeter(a: float) -> float:
                 Входные данные: 5.0
                 Результат: 20.0
     '''
+    if not isinstance(a, (float, int)):
+        raise ValueError("An invalid type was passed. Expected: float / int")
+
+    if a <= 0:
+        raise ValueError("An invalid value was passed. Expected: a in the range (0, +infinity)")
     
     s_perimeter = 4 * a
     return s_perimeter
