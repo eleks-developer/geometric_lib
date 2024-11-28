@@ -26,7 +26,6 @@ jobs:
       - name: "⚙️ Install the necessary dependencies"
         run: |
           python -m pip install --upgrade pip
-          pip install math unittest random string 
 
       - name: "🙏 Run tests"
         run: |
