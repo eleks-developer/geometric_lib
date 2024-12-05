@@ -9,24 +9,28 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os:
+         [ubuntu-latest, windows-latest]
+
+    runs-on: ${{ matrix.os }}
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - name: "📌 Checkout code"
+        uses: actions/checkout@v4.2.2
 
-      - name: Checkout testing branch
+      - name: "📌 Checkout testing branch"
         run: git fetch origin testing_465194 && git checkout testing_465194
 
       - name: "🐍 Install the latest version of Python"
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5.3.0
         with:
           python-version: '3.13.0'
 
       - name: "⚙️ Install the necessary dependencies"
         run: |
           python -m pip install --upgrade pip
-          # Здесь можно добавить команду для установки зависимостей, если они есть, например:
           # pip install -r requirements.txt
 
       - name: "🙏 Run tests"
